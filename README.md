@@ -5,15 +5,15 @@
 <ul>
 <div>
     <li>Educational website featuring a countdown timer <b>"How many days left until Christmas"</b></li>
-    <img src="/Screen_Shots/One.png" alt="timer">
+    <img src="/screen_shots_game/Screen Shot 2024-04-08 at 9.49.36 AM.png" alt="quiz">
 </div>
 <div>
     <li><b>a search</b> for Christmas recipes</li>
-    <img src="/Screen_Shots/two.png" alt="recipes">
+    <img src="/screen_shots_game/Screen Shot 2024-04-08 at 9.50.17 AM.png" alt="game with computer">
 </div>
 <div>
     <li>and <b>random</b> year predictions.</li>
-    <img src="/Screen_Shots/Three.png" alt="predictions">
+    <img src="/screen_shots_game/Screen Shot 2024-04-08 at 9.49.52 AM.png" alt="game crocodile">
 </div>
 </ul>
 <h2>The following technologies were used in the project:</h2>
