@@ -1,6 +1,5 @@
-<img src="https://media.giphy.com/media/Y3wqipfm9YStSrc3N3/giphy.gif?cid=790b7611vrme6u3qj4h1cjtwsx4u4ju6qwzovxq2etd0bdtp&ep=v1_gifs_search&rid=giphy.gif&ct=g" width="200" alt="play game"/>
+<img src="https://media.giphy.com/media/3o7iMUJm6Id1aXrwd2/giphy.gif?cid=ecf05e47iep4zhbsp7cg7gkercbagu6om9hhq06x5nvb71ic&ep=v1_gifs_search&rid=giphy.gif&ct=g" width="200" alt="play game"/>
 <h1 text="center">Games</h1>
-<a src="https://gilded-habitual-shawl.glitch.me"><button>Start</button></a>
 
 <h2>About the Project</h2>
 <ul>
