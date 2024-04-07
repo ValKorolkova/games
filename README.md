@@ -4,15 +4,15 @@
 <h2>About the Project</h2>
 <ul>
 <div>
-    <li>Educational website featuring a countdown timer <b>"How many days left until Christmas"</b></li>
+    <li>A learning website with games. Made in Russian language. The first game is a small quiz on knowledge of the capitals of European countries. You earn points for correct answers.
     <img src="/screen_shots_game/Screen Shot 2024-04-08 at 9.49.36 AM.png" alt="quiz">
 </div>
 <div>
-    <li><b>a search</b> for Christmas recipes</li>
+    <li><b>a search</b> The second game is a competition against the computer. You have to guess the number that the computer has chosen using hints.</li>
     <img src="/screen_shots_game/Screen Shot 2024-04-08 at 9.50.17 AM.png" alt="game with computer">
 </div>
 <div>
-    <li>and <b>random</b> year predictions.</li>
+    <li>and <b>random</b> The third game is the well-known game of Charades. When you press the first button, a random word appears that you need to act out. Don't forget to press the second button to start the timer for 2 minutes</li>
     <img src="/screen_shots_game/Screen Shot 2024-04-08 at 9.49.52 AM.png" alt="game crocodile">
 </div>
 </ul>
