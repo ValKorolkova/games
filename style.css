@@ -1,0 +1,199 @@
+body {
+    background-color:#D9CCC3
+  }
+  
+  .blokOne{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .header{
+      display: flex;
+      justify-content: center;
+  }
+  h1{
+      font-size: 40px;
+      font-family: 'Noto Sans', sans-serif;
+      color: #615B62;
+  }
+  
+  .game-name {
+      display: flex;
+      justify-content: center;
+  }
+  
+  h2 {
+      font-size: 28px;
+      font-family: 'Noto Sans', sans-serif;
+      color: #615B62;
+  }
+  
+  form {
+      background-color: #CCBCAD;
+      color: #501E1F;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      width: 70%;
+      padding: 100px;
+      font-family: 'Noto Sans', sans-serif;
+      border-radius: 12px;
+  }
+  label {
+      font-size: 16px;
+      padding: 10px;
+      margin: 10px;
+      font-weight: bolder;
+  }
+  .question {
+      padding: 30px;
+  }
+  
+  #btn {
+      background-color: #9A4505;
+      color: #D9CCC3;
+      width: 100%;
+      border: none;
+      border-radius: 12px;
+      padding: 15px;
+      font-size: 16px;
+      margin-top: 10px;
+  }
+  
+  #show {
+      margin: auto;
+      margin-top: 10px;
+  }
+  
+  .blocTwo, .blocThree {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 80px;
+  }
+  
+  #container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: #CCBCAD;
+      color: #501E1F;
+      width: 70%;
+      padding: 100px;
+      font-family: 'Noto Sans', sans-serif;
+      border-radius: 12px;
+  }
+  
+  h3 {
+      font-family: 'Noto Sans', sans-serif;
+      font-size: 20px;
+  }
+  
+  #guess {
+      padding: 10px;
+      width: 40%;
+      font-family: 'Noto Sans', sans-serif;
+      font-size: 15px;
+      border: none;
+      border-radius: 12px;
+  }
+  
+  #btnTwo {
+      background-color: #9A4505;
+      color: #D9CCC3;
+      width: 60%;
+      border: none;
+      border-radius: 12px;
+      padding: 15px;
+      font-size: 16px;
+      margin-top: 10px;
+  }
+  
+  #containerThree {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 70%;
+      padding: 100px;
+      font-family: 'Noto Sans', sans-serif;
+      border-radius: 12px;
+      background-color: #CCBCAD;
+      color: #501E1F;
+  }
+  
+  #btnThree {
+      background-color: #9A4505;
+      color: #D9CCC3;
+      width: 60%;
+      border: none;
+      border-radius: 12px;
+      padding: 15px;
+      font-size: 16px;
+      margin-top: 10px;
+      flex: 1;
+  }
+  #par {
+      display: none;
+      background-color: white;
+      color: #615B62;
+      width: 50%;
+      border: none;
+      border-radius: 12px;
+      padding: 15px;
+      font-size: 16px;
+      margin-top: 10px;
+      text-align: center;
+      flex: 1;
+      
+  }
+  
+  #btnStart {
+      background-color: #9A4505;
+      color: #D9CCC3;
+      width: 60%;
+      border: none;
+      border-radius: 12px;
+      padding: 15px;
+      font-size: 16px;
+      margin-top: 10px;
+  }
+  
+  #countdown {
+      font-size: 40px;
+      color: #615B62;
+  }
+  
+  @media all and (max-width:800px) {
+      h1 {
+          font-size: 28px;
+      }
+      .question {
+          padding: 20px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+      }
+      form, #container, #containerThree {
+          width: 60%;
+          padding: 60px;
+      }
+      #guess {
+          width: 40%;
+          padding: 5px;
+          font-size: 16px;
+      }
+  }
+  
+  @media all and (max-width:500px){
+      h1 {
+          font-size: 24px;
+      }
+      .question {
+          padding: 0 8px;
+      }
+      #guess {
+          font-size: 10px;
+      }
+  }

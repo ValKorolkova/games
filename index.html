@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <title>Games</title>
+</head>
+<body>
+    
+        <div class="header">
+            <h1>Веселые игры для твоего досуга!</h1>
+        </div>
+        <div class="game-name">
+            <h2>Викторина "Столицы"</h2>
+        </div>
+        <div class="blokOne">
+        <form>
+            <div class="question">
+                <label>Вопрос 1. Столица Словакии?</label>
+                <input type="radio" name="questionOne">	Будапешт;
+                <input type="radio" name="questionOne">Дублин;
+                <input type="radio" name="questionOne">Любляна;
+                <input type="radio" name="questionOne" id="answerOne">Братислава;
+            </div>
+    
+            <div class="question">
+                <label>Вопрос 2. Столица Словении?</label>
+                <input type="radio" name="questionTwo">Кишинёв;
+                <input type="radio" name="questionTwo" id="answerTwo">Любляна;
+                <input type="radio" name="questionTwo">Дублин;
+                <input type="radio" name="questionTwo">Братислава;
+            </div>
+    
+            <div class="question">
+                <label>Вопрос 3. Столица Ирландии?</label>
+                <input type="radio" name="questionThree">Загреб;
+                <input type="radio" name="questionThree">Будапешт;
+                <input type="radio" name="questionThree" id="answerThree">Дублин;
+                <input type="radio" name="questionThree">Рейкьявик;
+            </div>
+    
+            <div class="question">
+                <label>Вопрос 4. Столица Хорватии?</label>
+                <input type="radio" name="questionFour">Любляна;
+                <input type="radio" name="questionFour">Братислава;
+                <input type="radio" name="questionFour">Будапешт;
+                <input type="radio" name="questionFour" id="answerFour">Загреб;
+            </div>
+    
+            <div class="question">
+                <label>Вопрос 5. Столица Румынии?</label>
+                <input type="radio" name="questionFive">Братислава;
+                <input type="radio" name="questionFive">Будапешт;
+                <input type="radio" name="questionFive" id="answerFive">Бухарест;
+                <input type="radio" name="questionFive">Кишинёв;
+            </div>
+            <button type="submit" id="btn">Отправь ответ</button>
+            <p id="show"></p>
+            </form>
+        </div>
+        <div class="blocTwo">
+            <h2>Игра с компьютером</h2>
+            <div id="container">
+                <h3>Введите число от 1 до 20.</h3>
+                <h3>Кто победит: ты или компьютер?</h3>
+                <input id="guess" type="text" placeholder="Введите число...">
+                <br>
+                <button id="btnTwo">Играть</button>
+            </div>
+        </div>
+
+        <div class="blocThree">
+            <h2>Игра "Крокодил"</h2>
+            <div id="containerThree">
+                <button id="btnThree">Покажи...(нажми и узнаешь)!</button>
+                <p id="par"></p>
+                <button id="btnStart">Старт</button>
+                <!-- <div id="container-countdown"> -->
+                    <p id="countdown">2:00</p>
+                <!-- </div> -->
+            </div>
+        </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="script.js"></script>
+</body>
+</html>
