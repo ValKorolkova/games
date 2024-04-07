@@ -22,52 +22,40 @@
 <img src="/logo_front/html5-original.svg" width="100">
 <img src="/logo_front/javascript-original.svg" width="100">
 </div>
-<h2>Navigating Technical Hurdles: A Case Study of Countdown Timer Implementation</h2>
+<h2>Technical specifications and challenges faced during the project development.</h2>
 <p>
-Typical for the project were challenges related to managing real-time data updates, ensuring cross-browser compatibility for the countdown timer, and handling user interactions seamlessly. Additionally, unique aspects of the project included integrating a dynamic search feature for Christmas recipes, implementing an algorithm for generating random yearly predictions, and maintaining the festive aesthetic throughout the user interface.</p>
+
+The project utilized JavaScript functions that enable selecting only one correct answer and awarding points for it. Additionally, a method was used to generate random numbers within a specified range. It was necessary to ensure that users input only numbers and only within the specified range. Random selection of words from an array was also applied.</p>
 
 <h2>Technical Description of the Project</h2>
 
-<p>Project "Christmas Countdown Timer" is designed to display the countdown to Christmas using JavaScript. To install and configure the project, follow these steps:
+<p>Project "Games" is designed to display the different games using JavaScript. To install and configure the project, follow these steps:
 <ol>
 <li><strong>Project Installation:</strong>
     <ul>
-       <li>Download or clone the project repository using Git.</li>
+       <li>Clone the project repository from GitHub using the following command: <b>git clone <repository_url></b>.</li>
+       <li>Navigate to the project directory.</li>
     </ul>
 </li>
-<li> <strong>Setting up the Development Environment:</strong>
+<li> <strong>Configuration:</strong>
     <ul>
-       <li>Ensure that you have Node.js and npm installed to manage project dependencies.</li>
-       <li>Install all necessary dependencies by running the command <b>npm install</b> in the project root.</li>
-    </ul>
-</li>
-<li> <strong>Timer Configuration:</strong>
-    <ul>
-       <li>Open the countdown <b>.js script</b> file, where the timer settings are specified.</li>
-       <li>Set the event date (Christmas) in the corresponding variable.</li>
-       <li>Customize the time display format according to your preferences.</li>
+       <li>If required, install dependencies using a package manager like npm or yarn: <b>npm install</b> or <b>yarn install</b></li>
+       <li>Configure any environment variables or settings needed for the project.</li>
     </ul>
 </li>
 <li> <strong>Running the Project:</strong>
    <ul>
-      <li>Start a local server to view the project in the browser, for example, by running <b>npm start</b>.</li>
-      <li>Open a browser and navigate to <b>http://localhost:port</b>, where <b>port</b> is the port on which the server is running.</li>
+      <li>After installation and configuration, start the development server: <b>npm start</b> or <b>yarn start</b></li>
+      <li>Open the project in your preferred web browser by navigating to the provided local server address.</li>
    </ul>
 </li>
-<li><strong>User Interface:</strong>
+<li><strong>Contributing to the Project:</strong>
   <ul>
-     <li>Integrate the HTML markup and CSS styles of the timer into your website.</li>
-     <li>Ensure that the styles and layout of elements match your design choices.</li>
+     <li>Fork the project repository on GitHub.</li>
+     <li>Make necessary changes or enhancements to the codebase.</li>
+      <li>Ensure that your changes follow the project's coding standards and guidelines.</li>
+      <li>Test your changes thoroughly to avoid introducing bugs.</li>
+      <li>Submit a pull request to the original repository, explaining the changes you've made and their purpose.</li>
   </ul>
 </li>
-<li><strong>Testing and Debugging:</strong>
-   <ul>
-     <li>Test the timer on various browsers and devices to ensure its correct operation and responsiveness.</li>
-     <li>Use browser developer tools for debugging and fixing any potential issues.</li>
-  </ul>
-</li>
-<li><strong>Additional Functionality:</strong>
-   <ul>
-<li>Add functionality for searching and displaying Christmas recipes.</li>
-<li>Implement random year prediction generation to enhance the project's appeal.</li>
-<li>After completing these steps, the project will be ready for use, and users will be able to observe the countdown to Christmas and utilize additional features provided by the project.</li></ul></li></p>
+<p>By following these steps, you can install, configure, and contribute to the project effectively.</p>
